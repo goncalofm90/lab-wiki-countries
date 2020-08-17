@@ -1,5 +1,19 @@
+body {
+  background-color: #32353b;
+}
+
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.App a:hover {
+  color: white;
+}
+
+.App a {
+  margin: 20%;
 }
 
 .App-logo {
@@ -35,4 +49,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: white;
+}
+
+.countrylist li:hover {
+  background-color: royalblue;
+}
+
+li,
+li a:hover {
+  color: white;
+}
+
+.countrylist li {
+  background-color: #32353b;
+}
+
+.home {
+  background-color: #32353b;
+  color: white;
+  margin: auto;
+  padding: 10%;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
+.jumbotron-fluid {
+  background-color: #32353b;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
